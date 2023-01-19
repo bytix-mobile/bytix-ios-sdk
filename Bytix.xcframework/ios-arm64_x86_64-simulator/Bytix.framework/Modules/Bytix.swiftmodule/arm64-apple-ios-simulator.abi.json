@@ -1,0 +1,3080 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bytix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftProtobuf",
+        "printedName": "SwiftProtobuf",
+        "declKind": "Import",
+        "moduleName": "Bytix"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bytix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "Bytix"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bytix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "Bytix"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BytixSDK",
+        "printedName": "BytixSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "Bytix.BytixDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A3SDKC8delegateAA0A8Delegate_pSgvp",
+            "mangledName": "$s5Bytix0A3SDKC8delegateAA0A8Delegate_pSgvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Bytix.BytixDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BytixDelegate",
+                        "printedName": "Bytix.BytixDelegate",
+                        "usr": "s:5Bytix0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC8delegateAA0A8Delegate_pSgvg",
+                "mangledName": "$s5Bytix0A3SDKC8delegateAA0A8Delegate_pSgvg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Bytix.BytixDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BytixDelegate",
+                        "printedName": "Bytix.BytixDelegate",
+                        "usr": "s:5Bytix0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC8delegateAA0A8Delegate_pSgvs",
+                "mangledName": "$s5Bytix0A3SDKC8delegateAA0A8Delegate_pSgvs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC8delegateAA0A8Delegate_pSgvM",
+                "mangledName": "$s5Bytix0A3SDKC8delegateAA0A8Delegate_pSgvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceUUID",
+            "printedName": "serviceUUID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvp",
+            "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvg",
+                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvs",
+                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvM",
+                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionTreshold",
+            "printedName": "connectionTreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A3SDKC18connectionTresholdSivp",
+            "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSivp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC18connectionTresholdSivg",
+                "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSivg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC18connectionTresholdSivs",
+                "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSivs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC18connectionTresholdSivM",
+                "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSivM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disconnectionTreshold",
+            "printedName": "disconnectionTreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A3SDKC21disconnectionTresholdSivp",
+            "mangledName": "$s5Bytix0A3SDKC21disconnectionTresholdSivp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC21disconnectionTresholdSivg",
+                "mangledName": "$s5Bytix0A3SDKC21disconnectionTresholdSivg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC21disconnectionTresholdSivs",
+                "mangledName": "$s5Bytix0A3SDKC21disconnectionTresholdSivs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC21disconnectionTresholdSivM",
+                "mangledName": "$s5Bytix0A3SDKC21disconnectionTresholdSivM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idleConnectionTime",
+            "printedName": "idleConnectionTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A3SDKC18idleConnectionTimeSdvp",
+            "mangledName": "$s5Bytix0A3SDKC18idleConnectionTimeSdvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC18idleConnectionTimeSdvg",
+                "mangledName": "$s5Bytix0A3SDKC18idleConnectionTimeSdvg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC18idleConnectionTimeSdvs",
+                "mangledName": "$s5Bytix0A3SDKC18idleConnectionTimeSdvs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC18idleConnectionTimeSdvM",
+                "mangledName": "$s5Bytix0A3SDKC18idleConnectionTimeSdvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectingTimeout",
+            "printedName": "connectingTimeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A3SDKC17connectingTimeoutSdvp",
+            "mangledName": "$s5Bytix0A3SDKC17connectingTimeoutSdvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC17connectingTimeoutSdvg",
+                "mangledName": "$s5Bytix0A3SDKC17connectingTimeoutSdvg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC17connectingTimeoutSdvs",
+                "mangledName": "$s5Bytix0A3SDKC17connectingTimeoutSdvs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC17connectingTimeoutSdvM",
+                "mangledName": "$s5Bytix0A3SDKC17connectingTimeoutSdvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BytixSDK",
+                "printedName": "Bytix.BytixSDK",
+                "usr": "s:5Bytix0A3SDKC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bytix0A3SDKCyACSScfc",
+            "mangledName": "$s5Bytix0A3SDKCyACSScfc",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startScanning",
+            "printedName": "startScanning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A3SDKC13startScanningyyF",
+            "mangledName": "$s5Bytix0A3SDKC13startScanningyyF",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScanning",
+            "printedName": "stopScanning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A3SDKC12stopScanningyyF",
+            "mangledName": "$s5Bytix0A3SDKC12stopScanningyyF",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendData",
+            "printedName": "sendData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A3SDKC8sendDatayy10Foundation0D0VF",
+            "mangledName": "$s5Bytix0A3SDKC8sendDatayy10Foundation0D0VF",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBeacons",
+            "printedName": "getBeacons()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Bytix.BytixBeacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BytixBeacon",
+                    "printedName": "Bytix.BytixBeacon",
+                    "usr": "s:5Bytix0A6BeaconV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A3SDKC10getBeaconsSayAA0A6BeaconVGyF",
+            "mangledName": "$s5Bytix0A3SDKC10getBeaconsSayAA0A6BeaconVGyF",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5Bytix0A3SDKC",
+        "mangledName": "$s5Bytix0A3SDKC",
+        "moduleName": "Bytix",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bytix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BytixDelegate",
+        "printedName": "BytixDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didUpdatedBeacons",
+            "printedName": "didUpdatedBeacons()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegateP17didUpdatedBeaconsyyF",
+            "mangledName": "$s5Bytix0A8DelegateP17didUpdatedBeaconsyyF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(connectedTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegateP5bytix11connectedToyAA0A6BeaconV_tF",
+            "mangledName": "$s5Bytix0A8DelegateP5bytix11connectedToyAA0A6BeaconV_tF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(disconnectedFrom:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegateP5bytix16disconnectedFromyAA0A6BeaconV_tF",
+            "mangledName": "$s5Bytix0A8DelegateP5bytix16disconnectedFromyAA0A6BeaconV_tF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(lost:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegateP5bytix4lostyAA0A6BeaconV_tF",
+            "mangledName": "$s5Bytix0A8DelegateP5bytix4lostyAA0A6BeaconV_tF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(received:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegateP5bytix8received4fromy10Foundation4DataV_AA0A6BeaconVtF",
+            "mangledName": "$s5Bytix0A8DelegateP5bytix8received4fromy10Foundation4DataV_AA0A6BeaconVtF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(connectedTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegatePAAE5bytix11connectedToyAA0A6BeaconV_tF",
+            "mangledName": "$s5Bytix0A8DelegatePAAE5bytix11connectedToyAA0A6BeaconV_tF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(disconnectedFrom:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegatePAAE5bytix16disconnectedFromyAA0A6BeaconV_tF",
+            "mangledName": "$s5Bytix0A8DelegatePAAE5bytix16disconnectedFromyAA0A6BeaconV_tF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(lost:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegatePAAE5bytix4lostyAA0A6BeaconV_tF",
+            "mangledName": "$s5Bytix0A8DelegatePAAE5bytix4lostyAA0A6BeaconV_tF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(received:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegatePAAE5bytix8received4fromy10Foundation4DataV_AA0A6BeaconVtF",
+            "mangledName": "$s5Bytix0A8DelegatePAAE5bytix8received4fromy10Foundation4DataV_AA0A6BeaconVtF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5Bytix0A8DelegateP",
+        "mangledName": "$s5Bytix0A8DelegateP",
+        "moduleName": "Bytix",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BytixBeacon",
+        "printedName": "BytixBeacon",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ConnectionState",
+            "printedName": "ConnectionState",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "discovered",
+                "printedName": "discovered",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ConnectionState.Type) -> Bytix.BytixBeacon.ConnectionState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState",
+                        "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionState",
+                            "printedName": "Bytix.BytixBeacon.ConnectionState",
+                            "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV15ConnectionStateO10discoveredyA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV15ConnectionStateO10discoveredyA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Var",
+                "name": "connecting",
+                "printedName": "connecting",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ConnectionState.Type) -> Bytix.BytixBeacon.ConnectionState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState",
+                        "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionState",
+                            "printedName": "Bytix.BytixBeacon.ConnectionState",
+                            "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV15ConnectionStateO10connectingyA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV15ConnectionStateO10connectingyA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Var",
+                "name": "connected",
+                "printedName": "connected",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ConnectionState.Type) -> Bytix.BytixBeacon.ConnectionState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState",
+                        "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionState",
+                            "printedName": "Bytix.BytixBeacon.ConnectionState",
+                            "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV15ConnectionStateO9connectedyA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV15ConnectionStateO9connectedyA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnecting",
+                "printedName": "disconnecting",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ConnectionState.Type) -> Bytix.BytixBeacon.ConnectionState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState",
+                        "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionState",
+                            "printedName": "Bytix.BytixBeacon.ConnectionState",
+                            "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV15ConnectionStateO13disconnectingyA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV15ConnectionStateO13disconnectingyA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnected",
+                "printedName": "disconnected",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ConnectionState.Type) -> Bytix.BytixBeacon.ConnectionState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState",
+                        "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionState",
+                            "printedName": "Bytix.BytixBeacon.ConnectionState",
+                            "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV15ConnectionStateO12disconnectedyA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV15ConnectionStateO12disconnectedyA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Bytix.BytixBeacon.ConnectionState?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionState",
+                        "printedName": "Bytix.BytixBeacon.ConnectionState",
+                        "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:5Bytix0A6BeaconV15ConnectionStateO8rawValueAESgSS_tcfc",
+                "mangledName": "$s5Bytix0A6BeaconV15ConnectionStateO8rawValueAESgSS_tcfc",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5Bytix0A6BeaconV15ConnectionStateO8rawValueSSvp",
+                "mangledName": "$s5Bytix0A6BeaconV15ConnectionStateO8rawValueSSvp",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5Bytix0A6BeaconV15ConnectionStateO8rawValueSSvg",
+                    "mangledName": "$s5Bytix0A6BeaconV15ConnectionStateO8rawValueSSvg",
+                    "moduleName": "Bytix",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5Bytix0A6BeaconV15ConnectionStateO",
+            "mangledName": "$s5Bytix0A6BeaconV15ConnectionStateO",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rssi",
+            "printedName": "rssi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A6BeaconV4rssiSivp",
+            "mangledName": "$s5Bytix0A6BeaconV4rssiSivp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV4rssiSivg",
+                "mangledName": "$s5Bytix0A6BeaconV4rssiSivg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV4rssiSivs",
+                "mangledName": "$s5Bytix0A6BeaconV4rssiSivs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV4rssiSivM",
+                "mangledName": "$s5Bytix0A6BeaconV4rssiSivM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A6BeaconV8deviceIdSSSgvp",
+            "mangledName": "$s5Bytix0A6BeaconV8deviceIdSSSgvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV8deviceIdSSSgvg",
+                "mangledName": "$s5Bytix0A6BeaconV8deviceIdSSSgvg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV8deviceIdSSSgvs",
+                "mangledName": "$s5Bytix0A6BeaconV8deviceIdSSSgvs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV8deviceIdSSSgvM",
+                "mangledName": "$s5Bytix0A6BeaconV8deviceIdSSSgvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionState",
+            "printedName": "connectionState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectionState",
+                "printedName": "Bytix.BytixBeacon.ConnectionState",
+                "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A6BeaconV15connectionStateAC010ConnectionD0Ovp",
+            "mangledName": "$s5Bytix0A6BeaconV15connectionStateAC010ConnectionD0Ovp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionState",
+                    "printedName": "Bytix.BytixBeacon.ConnectionState",
+                    "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV15connectionStateAC010ConnectionD0Ovg",
+                "mangledName": "$s5Bytix0A6BeaconV15connectionStateAC010ConnectionD0Ovg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionState",
+                    "printedName": "Bytix.BytixBeacon.ConnectionState",
+                    "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV15connectionStateAC010ConnectionD0Ovs",
+                "mangledName": "$s5Bytix0A6BeaconV15connectionStateAC010ConnectionD0Ovs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV15connectionStateAC010ConnectionD0OvM",
+                "mangledName": "$s5Bytix0A6BeaconV15connectionStateAC010ConnectionD0OvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rssi:deviceId:connectionState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectionState",
+                "printedName": "Bytix.BytixBeacon.ConnectionState",
+                "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bytix0A6BeaconV4rssi8deviceId15connectionStateACSi_SSSgAC010ConnectionG0Otcfc",
+            "mangledName": "$s5Bytix0A6BeaconV4rssi8deviceId15connectionStateACSi_SSSgAC010ConnectionG0Otcfc",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ApproximateDistance",
+            "printedName": "ApproximateDistance",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "close",
+                "printedName": "close",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApproximateDistance",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApproximateDistance",
+                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO5closeyA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO5closeyA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Var",
+                "name": "near",
+                "printedName": "near",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApproximateDistance",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApproximateDistance",
+                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO4nearyA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO4nearyA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Var",
+                "name": "far",
+                "printedName": "far",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApproximateDistance",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApproximateDistance",
+                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO3faryA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO3faryA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Var",
+                "name": "veryFar",
+                "printedName": "veryFar",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApproximateDistance",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApproximateDistance",
+                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO7veryFaryA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO7veryFaryA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Var",
+                "name": "unknown",
+                "printedName": "unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApproximateDistance",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApproximateDistance",
+                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO7unknownyA2EmF",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO7unknownyA2EmF",
+                "moduleName": "Bytix"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApproximateDistance",
+                    "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceOyAESicfc",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceOyAESicfc",
+                "moduleName": "Bytix",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "description",
+                "printedName": "description",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO11descriptionSSvp",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO11descriptionSSvp",
+                "moduleName": "Bytix",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO11descriptionSSvg",
+                    "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO11descriptionSSvg",
+                    "moduleName": "Bytix",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApproximateDistance",
+                    "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApproximateDistance",
+                    "printedName": "Bytix.BytixBeacon.ApproximateDistance",
+                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO2eeoiySbAE_AEtFZ",
+                "moduleName": "Bytix",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO9hashValueSivp",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO9hashValueSivp",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO9hashValueSivg",
+                    "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO9hashValueSivg",
+                    "moduleName": "Bytix",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO4hash4intoys6HasherVz_tF",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO",
+            "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A6BeaconV9hashValueSivp",
+            "mangledName": "$s5Bytix0A6BeaconV9hashValueSivp",
+            "moduleName": "Bytix",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV9hashValueSivg",
+                "mangledName": "$s5Bytix0A6BeaconV9hashValueSivg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A6BeaconV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5Bytix0A6BeaconV4hash4intoys6HasherVz_tF",
+            "moduleName": "Bytix",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixBeacon",
+                "printedName": "Bytix.BytixBeacon",
+                "usr": "s:5Bytix0A6BeaconV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A6BeaconV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5Bytix0A6BeaconV2eeoiySbAC_ACtFZ",
+            "moduleName": "Bytix",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Bytix0A6BeaconV",
+        "mangledName": "$s5Bytix0A6BeaconV",
+        "moduleName": "Bytix",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bytix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bytix",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "Bytix"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23668,
+      "length": 9,
+      "value": "\"BLEInfo\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23741,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23757,
+      "length": 10,
+      "value": "\"deviceID\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23774,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23790,
+      "length": 9,
+      "value": "\"groupID\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23806,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23822,
+      "length": 7,
+      "value": "\"realm\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23836,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23852,
+      "length": 8,
+      "value": "\"serial\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23867,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 23883,
+      "length": 11,
+      "value": "\"publicKey\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 26421,
+      "length": 11,
+      "value": "\"BLEPacket\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26496,
+      "length": 3,
+      "value": "111"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 26514,
+      "length": 9,
+      "value": "\"command\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26530,
+      "length": 3,
+      "value": "222"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 26548,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29157,
+      "length": 12,
+      "value": "\"BLECommand\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29233,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29249,
+      "length": 9,
+      "value": "\"request\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29265,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29281,
+      "length": 13,
+      "value": "\"isEncrypted\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29301,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29317,
+      "length": 4,
+      "value": "\"iv\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29328,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29344,
+      "length": 11,
+      "value": "\"requestID\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29362,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29379,
+      "length": 6,
+      "value": "\"ping\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29392,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29409,
+      "length": 9,
+      "value": "\"sendKey\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29425,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29442,
+      "length": 11,
+      "value": "\"proximity\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29460,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29477,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29491,
+      "length": 2,
+      "value": "99"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29508,
+      "length": 15,
+      "value": "\"customPayload\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29530,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 29548,
+      "length": 14,
+      "value": "\"adminPayload\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35229,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35245,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35261,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35278,
+      "length": 6,
+      "value": "\"PING\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35291,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35308,
+      "length": 10,
+      "value": "\"CERT_GET\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35325,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35342,
+      "length": 14,
+      "value": "\"ENC_SEND_KEY\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35363,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35380,
+      "length": 13,
+      "value": "\"NEAR_DEVICE\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35400,
+      "length": 2,
+      "value": "41"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35417,
+      "length": 12,
+      "value": "\"GIVE_TOKEN\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35436,
+      "length": 2,
+      "value": "99"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35453,
+      "length": 16,
+      "value": "\"CUSTOM_COMMAND\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35476,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35494,
+      "length": 15,
+      "value": "\"ADMIN_COMMAND\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35683,
+      "length": 13,
+      "value": "\"BLEResponse\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35760,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35776,
+      "length": 11,
+      "value": "\"errorCode\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35794,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35810,
+      "length": 12,
+      "value": "\"responseID\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35829,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35846,
+      "length": 6,
+      "value": "\"ping\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35859,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35876,
+      "length": 12,
+      "value": "\"certBundle\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35895,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35912,
+      "length": 15,
+      "value": "\"tokenResponse\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35934,
+      "length": 2,
+      "value": "99"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35951,
+      "length": 15,
+      "value": "\"customPayload\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35973,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 35991,
+      "length": 14,
+      "value": "\"adminPayload\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 40658,
+      "length": 13,
+      "value": "\"PingCommand\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40735,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 40751,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 42282,
+      "length": 19,
+      "value": "\"CertificateBundle\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 42365,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 42381,
+      "length": 13,
+      "value": "\"certificate\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 43960,
+      "length": 19,
+      "value": "\"EncryptionKeyInfo\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 44043,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 44059,
+      "length": 9,
+      "value": "\"keyData\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 45611,
+      "length": 16,
+      "value": "\"ProximityEvent\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 45691,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 45707,
+      "length": 10,
+      "value": "\"deviceID\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 45724,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 45740,
+      "length": 6,
+      "value": "\"rssi\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 45753,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 45769,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 47909,
+      "length": 18,
+      "value": "\"GiveTokenCommand\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47991,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 48007,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48021,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 48037,
+      "length": 9,
+      "value": "\"context\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48053,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 48069,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48087,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 48103,
+      "length": 9,
+      "value": "\"payload\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 50402,
+      "length": 15,
+      "value": "\"TokenResponse\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50481,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 50497,
+      "length": 9,
+      "value": "\"payload\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50513,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Protobuf\/bytix-ble.pb.swift",
+      "kind": "StringLiteral",
+      "offset": 50529,
+      "length": 11,
+      "value": "\"isExpired\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
+      "kind": "Array",
+      "offset": 279,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
+      "kind": "BooleanLiteral",
+      "offset": 551,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
+      "kind": "StringLiteral",
+      "offset": 137,
+      "length": 7,
+      "value": "\"Bytix.Gateway\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9409,
+      "length": 6,
+      "value": "\"0001\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9501,
+      "length": 6,
+      "value": "\"0002\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9594,
+      "length": 6,
+      "value": "\"0003\""
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9684,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 912,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
+      "kind": "Array",
+      "offset": 968,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
+      "kind": "Dictionary",
+      "offset": 1197,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
+      "kind": "IntegerLiteral",
+      "offset": 646,
+      "length": 3,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
+      "kind": "IntegerLiteral",
+      "offset": 960,
+      "length": 3,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1300,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1594,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Serial\/SerialService.swift",
+      "kind": "Array",
+      "offset": 780,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Serial\/SerialService.swift",
+      "kind": "Array",
+      "offset": 818,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Serial\/SerialService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 859,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Serial\/SerialService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3616,
+      "length": 2,
+      "value": "10"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module Bytix {
+  umbrella header "Bytix.h"
+
+  export *
+  module * { export * }
+}
+
+module Bytix.Swift {
+  header "Bytix-Swift.h"
+  requires objc
+}
