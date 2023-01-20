@@ -180,25 +180,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5Bytix0A3SDKC11serviceUUIDSSSgvp",
-            "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSSgvp",
+            "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvp",
+            "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvp",
             "moduleName": "Bytix",
             "declAttributes": [
-              "HasInitialValue",
               "Final",
               "HasStorage",
               "AccessControl",
@@ -213,22 +204,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSSgvg",
-                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSSgvg",
+                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvg",
+                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvg",
                 "moduleName": "Bytix",
                 "implicit": true,
                 "declAttributes": [
@@ -248,22 +231,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSSgvs",
-                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSSgvs",
+                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvs",
+                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvs",
                 "moduleName": "Bytix",
                 "implicit": true,
                 "declAttributes": [
@@ -283,8 +258,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSSgvM",
-                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSSgvM",
+                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvM",
+                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvM",
                 "moduleName": "Bytix",
                 "implicit": true,
                 "declAttributes": [
@@ -683,6 +658,34 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BytixSDK",
+                "printedName": "Bytix.BytixSDK",
+                "usr": "s:5Bytix0A3SDKC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Bytix0A3SDKCyACSScfc",
+            "mangledName": "$s5Bytix0A3SDKCyACSScfc",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "startScanning",
             "printedName": "startScanning()",
@@ -794,8 +797,7 @@
           "AccessControl",
           "Final",
           "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",
@@ -1732,6 +1734,47 @@
           },
           {
             "kind": "Var",
+            "name": "approximateDistance",
+            "printedName": "approximateDistance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A6BeaconV19approximateDistanceSSvp",
+            "mangledName": "$s5Bytix0A6BeaconV19approximateDistanceSSvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV19approximateDistanceSSvg",
+                "mangledName": "$s5Bytix0A6BeaconV19approximateDistanceSSvg",
+                "moduleName": "Bytix",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "hashValue",
             "printedName": "hashValue",
             "children": [
@@ -2642,28 +2685,28 @@
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
       "kind": "IntegerLiteral",
-      "offset": 647,
+      "offset": 646,
       "length": 3,
       "value": "50"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
       "kind": "IntegerLiteral",
-      "offset": 961,
+      "offset": 960,
       "length": 3,
       "value": "70"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
       "kind": "IntegerLiteral",
-      "offset": 1301,
+      "offset": 1300,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
       "kind": "IntegerLiteral",
-      "offset": 1595,
+      "offset": 1594,
       "length": 1,
       "value": "5"
     },

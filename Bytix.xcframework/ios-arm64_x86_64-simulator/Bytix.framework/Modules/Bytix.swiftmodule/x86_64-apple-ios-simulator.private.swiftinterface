@@ -9,9 +9,9 @@ import Swift
 import SwiftProtobuf
 import _Concurrency
 import _StringProcessing
-@_hasMissingDesignatedInitializers final public class BytixSDK {
+final public class BytixSDK {
   weak final public var delegate: Bytix.BytixDelegate?
-  final public var serviceUUID: Swift.String? {
+  final public var serviceUUID: Swift.String {
     get
     set
   }
@@ -31,6 +31,7 @@ import _StringProcessing
     get
     set
   }
+  public init(_ serviceUUID: Swift.String)
   final public func startScanning()
   final public func stopScanning()
   final public func sendData(_ data: Foundation.Data)
@@ -67,6 +68,9 @@ public struct BytixBeacon : Swift.Hashable {
   public var deviceId: Swift.String?
   public var connectionState: Bytix.BytixBeacon.ConnectionState
   public init(rssi: Swift.Int, deviceId: Swift.String?, connectionState: Bytix.BytixBeacon.ConnectionState)
+  public var approximateDistance: Swift.String {
+    get
+  }
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: Bytix.BytixBeacon, b: Bytix.BytixBeacon) -> Swift.Bool
   public var hashValue: Swift.Int {
