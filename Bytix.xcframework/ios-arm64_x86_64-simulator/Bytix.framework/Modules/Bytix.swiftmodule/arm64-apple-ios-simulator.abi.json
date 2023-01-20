@@ -180,16 +180,25 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvp",
-            "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvp",
+            "usr": "s:5Bytix0A3SDKC11serviceUUIDSSSgvp",
+            "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSSgvp",
             "moduleName": "Bytix",
             "declAttributes": [
+              "HasInitialValue",
               "Final",
               "HasStorage",
               "AccessControl",
@@ -204,14 +213,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvg",
-                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvg",
+                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSSgvg",
+                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSSgvg",
                 "moduleName": "Bytix",
                 "implicit": true,
                 "declAttributes": [
@@ -231,14 +248,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvs",
-                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvs",
+                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSSgvs",
+                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSSgvs",
                 "moduleName": "Bytix",
                 "implicit": true,
                 "declAttributes": [
@@ -258,8 +283,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSvM",
-                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSvM",
+                "usr": "s:5Bytix0A3SDKC11serviceUUIDSSSgvM",
+                "mangledName": "$s5Bytix0A3SDKC11serviceUUIDSSSgvM",
                 "moduleName": "Bytix",
                 "implicit": true,
                 "declAttributes": [
@@ -658,34 +683,6 @@
             ]
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BytixSDK",
-                "printedName": "Bytix.BytixSDK",
-                "usr": "s:5Bytix0A3SDKC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:5Bytix0A3SDKCyACSScfc",
-            "mangledName": "$s5Bytix0A3SDKCyACSScfc",
-            "moduleName": "Bytix",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Function",
             "name": "startScanning",
             "printedName": "startScanning()",
@@ -797,7 +794,8 @@
           "AccessControl",
           "Final",
           "RawDocComment"
-        ]
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -1733,385 +1731,6 @@
             "init_kind": "Designated"
           },
           {
-            "kind": "TypeDecl",
-            "name": "ApproximateDistance",
-            "printedName": "ApproximateDistance",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "close",
-                "printedName": "close",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ApproximateDistance",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ApproximateDistance",
-                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO5closeyA2EmF",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO5closeyA2EmF",
-                "moduleName": "Bytix"
-              },
-              {
-                "kind": "Var",
-                "name": "near",
-                "printedName": "near",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ApproximateDistance",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ApproximateDistance",
-                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO4nearyA2EmF",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO4nearyA2EmF",
-                "moduleName": "Bytix"
-              },
-              {
-                "kind": "Var",
-                "name": "far",
-                "printedName": "far",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ApproximateDistance",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ApproximateDistance",
-                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO3faryA2EmF",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO3faryA2EmF",
-                "moduleName": "Bytix"
-              },
-              {
-                "kind": "Var",
-                "name": "veryFar",
-                "printedName": "veryFar",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ApproximateDistance",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ApproximateDistance",
-                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO7veryFaryA2EmF",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO7veryFaryA2EmF",
-                "moduleName": "Bytix"
-              },
-              {
-                "kind": "Var",
-                "name": "unknown",
-                "printedName": "unknown",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Bytix.BytixBeacon.ApproximateDistance.Type) -> Bytix.BytixBeacon.ApproximateDistance",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ApproximateDistance",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                        "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Bytix.BytixBeacon.ApproximateDistance.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ApproximateDistance",
-                            "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO7unknownyA2EmF",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO7unknownyA2EmF",
-                "moduleName": "Bytix"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ApproximateDistance",
-                    "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceOyAESicfc",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceOyAESicfc",
-                "moduleName": "Bytix",
-                "declAttributes": [
-                  "AccessControl"
-                ],
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "description",
-                "printedName": "description",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO11descriptionSSvp",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO11descriptionSSvp",
-                "moduleName": "Bytix",
-                "declAttributes": [
-                  "AccessControl"
-                ],
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO11descriptionSSvg",
-                    "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO11descriptionSSvg",
-                    "moduleName": "Bytix",
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "==",
-                "printedName": "==(_:_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ApproximateDistance",
-                    "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ApproximateDistance",
-                    "printedName": "Bytix.BytixBeacon.ApproximateDistance",
-                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO2eeoiySbAE_AEtFZ",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO2eeoiySbAE_AEtFZ",
-                "moduleName": "Bytix",
-                "static": true,
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Var",
-                "name": "hashValue",
-                "printedName": "hashValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO9hashValueSivp",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO9hashValueSivp",
-                "moduleName": "Bytix",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO9hashValueSivg",
-                    "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO9hashValueSivg",
-                    "moduleName": "Bytix",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "hash",
-                "printedName": "hash(into:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Hasher",
-                    "printedName": "Swift.Hasher",
-                    "paramValueOwnership": "InOut",
-                    "usr": "s:s6HasherV"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO4hash4intoys6HasherVz_tF",
-                "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO4hash4intoys6HasherVz_tF",
-                "moduleName": "Bytix",
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:5Bytix0A6BeaconV19ApproximateDistanceO",
-            "mangledName": "$s5Bytix0A6BeaconV19ApproximateDistanceO",
-            "moduleName": "Bytix",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              }
-            ]
-          },
-          {
             "kind": "Var",
             "name": "hashValue",
             "printedName": "hashValue",
@@ -3023,28 +2642,28 @@
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
       "kind": "IntegerLiteral",
-      "offset": 646,
+      "offset": 647,
       "length": 3,
       "value": "50"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
       "kind": "IntegerLiteral",
-      "offset": 960,
+      "offset": 961,
       "length": 3,
       "value": "70"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
       "kind": "IntegerLiteral",
-      "offset": 1300,
+      "offset": 1301,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Public\/Bytix.swift",
       "kind": "IntegerLiteral",
-      "offset": 1594,
+      "offset": 1595,
       "length": 1,
       "value": "5"
     },
