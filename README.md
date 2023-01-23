@@ -15,7 +15,7 @@ Bytix предоставляет возможность взаимодейств
 
 Проверить работу библиотеки можно с помощью [Demo приложения](https://github.com/bytix-mobile/bytix-ios-test-app) библиотеки Bytix
 
-<a name=Установка""></a>
+<a name="Установка"></a>
 ## Установка :hammer:
 
 #### Cocoapods
