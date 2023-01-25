@@ -23,6 +23,10 @@ final public class BytixSDK {
     get
     set
   }
+  final public var switchDeviceDelta: Swift.Int {
+    get
+    set
+  }
   final public var idleConnectionTime: Swift.Double {
     get
     set
