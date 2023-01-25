@@ -68,11 +68,27 @@ public struct BytixBeacon : Swift.Hashable {
       get
     }
   }
+  public enum ApproximateDistanse {
+    case close
+    case near
+    case far
+    case veryFar
+    case unknown
+    public init(rssi: Swift.Int)
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: Bytix.BytixBeacon.ApproximateDistanse, b: Bytix.BytixBeacon.ApproximateDistanse) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
   public var rssi: Swift.Int
   public var deviceId: Swift.String?
   public var connectionState: Bytix.BytixBeacon.ConnectionState
   public init(rssi: Swift.Int, deviceId: Swift.String?, connectionState: Bytix.BytixBeacon.ConnectionState)
-  public var approximateDistance: Swift.String {
+  public var approximateDistance: Bytix.BytixBeacon.ApproximateDistanse {
     get
   }
   public func hash(into hasher: inout Swift.Hasher)
@@ -84,3 +100,5 @@ public struct BytixBeacon : Swift.Hashable {
 extension Bytix.BytixBeacon.ConnectionState : Swift.Equatable {}
 extension Bytix.BytixBeacon.ConnectionState : Swift.Hashable {}
 extension Bytix.BytixBeacon.ConnectionState : Swift.RawRepresentable {}
+extension Bytix.BytixBeacon.ApproximateDistanse : Swift.Equatable {}
+extension Bytix.BytixBeacon.ApproximateDistanse : Swift.Hashable {}
