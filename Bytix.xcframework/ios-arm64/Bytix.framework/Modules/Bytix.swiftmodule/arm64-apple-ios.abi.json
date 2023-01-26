@@ -2076,6 +2076,339 @@
           },
           {
             "kind": "Var",
+            "name": "groupId",
+            "printedName": "groupId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A6BeaconV7groupIdSSSgvp",
+            "mangledName": "$s5Bytix0A6BeaconV7groupIdSSSgvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV7groupIdSSSgvg",
+                "mangledName": "$s5Bytix0A6BeaconV7groupIdSSSgvg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV7groupIdSSSgvs",
+                "mangledName": "$s5Bytix0A6BeaconV7groupIdSSSgvs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV7groupIdSSSgvM",
+                "mangledName": "$s5Bytix0A6BeaconV7groupIdSSSgvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "realm",
+            "printedName": "realm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A6BeaconV5realmSSSgvp",
+            "mangledName": "$s5Bytix0A6BeaconV5realmSSSgvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV5realmSSSgvg",
+                "mangledName": "$s5Bytix0A6BeaconV5realmSSSgvg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV5realmSSSgvs",
+                "mangledName": "$s5Bytix0A6BeaconV5realmSSSgvs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV5realmSSSgvM",
+                "mangledName": "$s5Bytix0A6BeaconV5realmSSSgvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceName",
+            "printedName": "deviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A6BeaconV10deviceNameSSSgvp",
+            "mangledName": "$s5Bytix0A6BeaconV10deviceNameSSSgvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV10deviceNameSSSgvg",
+                "mangledName": "$s5Bytix0A6BeaconV10deviceNameSSSgvg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV10deviceNameSSSgvs",
+                "mangledName": "$s5Bytix0A6BeaconV10deviceNameSSSgvs",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A6BeaconV10deviceNameSSSgvM",
+                "mangledName": "$s5Bytix0A6BeaconV10deviceNameSSSgvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "connectionState",
             "printedName": "connectionState",
             "children": [
@@ -2163,7 +2496,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(rssi:deviceId:connectionState:)",
+            "printedName": "init(rssi:deviceName:deviceId:groupId:realm:connectionState:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2193,14 +2526,56 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "ConnectionState",
                 "printedName": "Bytix.BytixBeacon.ConnectionState",
                 "usr": "s:5Bytix0A6BeaconV15ConnectionStateO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5Bytix0A6BeaconV4rssi8deviceId15connectionStateACSi_SSSgAC010ConnectionG0Otcfc",
-            "mangledName": "$s5Bytix0A6BeaconV4rssi8deviceId15connectionStateACSi_SSSgAC010ConnectionG0Otcfc",
+            "usr": "s:5Bytix0A6BeaconV4rssi10deviceName0D2Id05groupF05realm15connectionStateACSi_SSSgA3jC010ConnectionJ0Otcfc",
+            "mangledName": "$s5Bytix0A6BeaconV4rssi10deviceName0D2Id05groupF05realm15connectionStateACSi_SSSgA3jC010ConnectionJ0Otcfc",
             "moduleName": "Bytix",
             "declAttributes": [
               "AccessControl"
@@ -3097,7 +3472,7 @@
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "BooleanLiteral",
-      "offset": 551,
+      "offset": 587,
       "length": 5,
       "value": "false"
     },
@@ -3111,28 +3486,28 @@
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 9409,
+      "offset": 9632,
       "length": 6,
       "value": "\"0001\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 9501,
+      "offset": 9724,
       "length": 6,
       "value": "\"0002\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 9594,
+      "offset": 9817,
       "length": 6,
       "value": "\"0003\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "IntegerLiteral",
-      "offset": 9684,
+      "offset": 9907,
       "length": 1,
       "value": "5"
     },
