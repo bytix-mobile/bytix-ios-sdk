@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		IybwklSvcrXzp90MvRC8yNwhAX8=
+		zEFomvOmpSQueZ+FXMejooR4PPU=
 		</data>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Vqsw6VuVIKQP9vx3w+qJ2SSGFzc=
+		N7rtzazSG9oOSmCPaMKoFO7hjjY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oTANVb9CBSLVwj5dYZnKREUnTdf3nTgdlThDAUNHOXY=
+			K6WNcOkKvSu9EZo/CkqT6xFHwUV0xkQgGghde86oPJo=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			np8XGHsTkUl54ftbzq70PAOtNcHMjjRksXq2KnrXOjo=
+			wHNpvokfi9OBpguZp9WCLaK5EFyyIdPFJxsaQzmq3qY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

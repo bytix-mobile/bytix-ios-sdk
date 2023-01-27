@@ -3486,30 +3486,30 @@
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 9632,
+      "offset": 11076,
       "length": 6,
       "value": "\"0001\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 9724,
+      "offset": 11168,
       "length": 6,
       "value": "\"0002\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 9817,
+      "offset": 11261,
       "length": 6,
       "value": "\"0003\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "IntegerLiteral",
-      "offset": 9907,
-      "length": 1,
-      "value": "5"
+      "offset": 11351,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
