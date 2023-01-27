@@ -3486,28 +3486,28 @@
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 11076,
+      "offset": 11055,
       "length": 6,
       "value": "\"0001\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 11168,
+      "offset": 11147,
       "length": 6,
       "value": "\"0002\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 11261,
+      "offset": 11240,
       "length": 6,
       "value": "\"0003\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/PPR\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "IntegerLiteral",
-      "offset": 11351,
+      "offset": 11330,
       "length": 2,
       "value": "10"
     },
