@@ -84,13 +84,13 @@ public struct BytixBeacon : Swift.Hashable {
       get
     }
   }
-  public var rssi: Swift.Int
+  public var rssi: Swift.Int?
   public var deviceId: Swift.String?
   public var groupId: Swift.String?
   public var realm: Swift.String?
   public var deviceName: Swift.String?
   public var connectionState: Bytix.BytixBeacon.ConnectionState
-  public init(rssi: Swift.Int, deviceName: Swift.String?, deviceId: Swift.String?, groupId: Swift.String?, realm: Swift.String?, connectionState: Bytix.BytixBeacon.ConnectionState)
+  public init(rssi: Swift.Int?, deviceName: Swift.String?, deviceId: Swift.String?, groupId: Swift.String?, realm: Swift.String?, connectionState: Bytix.BytixBeacon.ConnectionState)
   public var approximateDistance: Bytix.BytixBeacon.ApproximateDistanse {
     get
   }
