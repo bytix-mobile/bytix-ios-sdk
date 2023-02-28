@@ -20,8 +20,6 @@ Bytix предоставляет возможность взаимодейств
 
 #### Cocoapods
 
-[Cocoapods](https://cocoapods.org/#install) Это менеджер зависимостей в проектах на языках Swift и Objective-C, для установки вам необходимо добавить библиотеку в ваш `Podfile` и выполнить установку зависимостей.
-
 Добавьте в ваш Podfile:
 ```
 pod 'Bytix'
@@ -30,6 +28,14 @@ pod 'Bytix'
 Выполните команду через терминал, находясь в папке проекта
 ```
 pod install
+```
+
+#### Swift Package Manager (SPM)
+
+```
+dependencies: [
+    .package(url: "https://github.com/bytix-mobile/bytix-ios-sdk.git", .upToNextMajor(from: "1.0.0"))
+]
 ```
 
 <a name="Как-использовать"></a>
