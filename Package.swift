@@ -8,9 +8,6 @@ let package = Package(
         .library(name: "Bytix",
                  targets: ["Bytix"])
     ],
-    dependencies: [
-        .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.0.0")
-    ],
     targets: [
         .binaryTarget(name: "Bytix",
                       path: "Bytix.xcframework")
