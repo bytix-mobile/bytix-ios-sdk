@@ -13,8 +13,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "Bytix",
-                      path: "Bytix.xcframework",
-                      dependencies: [.product(name: "SwiftProtobuf",
-                                              package: "swift-protobuf")])
+                      path: "Bytix.xcframework")
     ]
 )
