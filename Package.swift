@@ -18,7 +18,8 @@ let package = Package(
             name: "BytixWrapper",
             dependencies: [
                 "SwiftProtobuf"
-            ]
+            ],
+            path: "BytixWrapper"
         ),
         .binaryTarget(
             name: "Bytix",
