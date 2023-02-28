@@ -9,7 +9,7 @@ let package = Package(
                  targets: ["Bytix"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.0")
+        .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.0.0")
     ],
     targets: [
         .binaryTarget(name: "Bytix",
