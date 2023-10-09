@@ -1,7 +1,7 @@
 framework module Bytix {
   umbrella header "Bytix.h"
-
   export *
+
   module * { export * }
 }
 
