@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Bytix
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Bytix
 @_exported import Bytix
 import CoreBluetooth
 import Foundation
@@ -12,11 +11,11 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 final public class BytixSDK {
   weak final public var delegate: (any Bytix.BytixDelegate)?
-  final public var serviceUUID: Swift.String {
+  final public var serviceUUID: Swift.String? {
     get
     set
   }
-  final public var connectionTreshold: Swift.Int {
+  final public var connectionTreshold: Foundation.TimeInterval {
     get
     set
   }
@@ -24,11 +23,19 @@ final public class BytixSDK {
     get
     set
   }
-  final public var idleConnectionTime: Swift.Double {
+  final public var switchDeviceDelta: Swift.Int {
     get
     set
   }
-  final public var connectingTimeout: Swift.Double {
+  final public var idleConnectionTime: Foundation.TimeInterval {
+    get
+    set
+  }
+  final public var connectingTimeout: Foundation.TimeInterval {
+    get
+    set
+  }
+  final public var autoConnection: Swift.Bool {
     get
     set
   }
@@ -37,6 +44,8 @@ final public class BytixSDK {
   final public func stopScanning()
   final public func sendData(_ data: Foundation.Data)
   final public func getBeacons() -> [Bytix.BytixBeacon]
+  final public func connectTo(_ beacon: Bytix.BytixBeacon)
+  final public func disconnectFrom(_ beacon: Bytix.BytixBeacon)
   @objc deinit
 }
 public protocol BytixDelegate : AnyObject {
@@ -45,12 +54,15 @@ public protocol BytixDelegate : AnyObject {
   func bytix(disconnectedFrom device: Bytix.BytixBeacon)
   func bytix(lost device: Bytix.BytixBeacon)
   func bytix(received data: Foundation.Data, from device: Bytix.BytixBeacon)
+  func bytix(update RSSI: Swift.Int, for device: Bytix.BytixBeacon)
 }
 extension Bytix.BytixDelegate {
+  public func didUpdatedBeacons()
   public func bytix(connectedTo device: Bytix.BytixBeacon)
   public func bytix(disconnectedFrom device: Bytix.BytixBeacon)
   public func bytix(lost device: Bytix.BytixBeacon)
   public func bytix(received data: Foundation.Data, from device: Bytix.BytixBeacon)
+  public func bytix(update RSSI: Swift.Int, for device: Bytix.BytixBeacon)
 }
 public struct BytixBeacon : Swift.Hashable {
   public enum ConnectionState : Swift.String {
@@ -65,11 +77,44 @@ public struct BytixBeacon : Swift.Hashable {
       get
     }
   }
-  public var rssi: Swift.Int
+  public enum ApproximateDistanse {
+    case close
+    case near
+    case far
+    case veryFar
+    case unknown
+    public init(rssi: Swift.Int)
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: Bytix.BytixBeacon.ApproximateDistanse, b: Bytix.BytixBeacon.ApproximateDistanse) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public struct BytixMetrics : Swift.Hashable {
+    public let сounter: Swift.Int
+    public let uptime: Swift.Int
+    public let freeHeap: Swift.Int
+    public let clients: Swift.Int
+    public let totalClients: Swift.Int
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: Bytix.BytixBeacon.BytixMetrics, b: Bytix.BytixBeacon.BytixMetrics) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var rssi: Swift.Int?
   public var deviceId: Swift.String?
+  public var groupId: Swift.String?
+  public var realm: Swift.String?
+  public var deviceName: Swift.String?
   public var connectionState: Bytix.BytixBeacon.ConnectionState
-  public init(rssi: Swift.Int, deviceId: Swift.String?, connectionState: Bytix.BytixBeacon.ConnectionState)
-  public var approximateDistance: Swift.String {
+  public var metrics: Bytix.BytixBeacon.BytixMetrics?
+  public var shortIdentifier: Swift.String
+  public init(rssi: Swift.Int?, deviceName: Swift.String?, deviceId: Swift.String?, groupId: Swift.String?, realm: Swift.String?, shortIdentifier: Swift.String, metrics: Bytix.BytixBeacon.BytixMetrics?, connectionState: Bytix.BytixBeacon.ConnectionState)
+  public var approximateDistance: Bytix.BytixBeacon.ApproximateDistanse {
     get
   }
   public func hash(into hasher: inout Swift.Hasher)
@@ -81,3 +126,5 @@ public struct BytixBeacon : Swift.Hashable {
 extension Bytix.BytixBeacon.ConnectionState : Swift.Equatable {}
 extension Bytix.BytixBeacon.ConnectionState : Swift.Hashable {}
 extension Bytix.BytixBeacon.ConnectionState : Swift.RawRepresentable {}
+extension Bytix.BytixBeacon.ApproximateDistanse : Swift.Equatable {}
+extension Bytix.BytixBeacon.ApproximateDistanse : Swift.Hashable {}
