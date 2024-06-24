@@ -34,7 +34,7 @@ pod install
 
 ```
 dependencies: [
-    .package(url: "https://github.com/bytix-mobile/bytix-ios-sdk.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/bytix-mobile/bytix-ios-sdk.git", .upToNextMajor(from: "1.2.0"))
 ]
 ```
 
@@ -86,6 +86,13 @@ bytixManager.switchDeviceDelta = 20
 ```swift
 bytixManager.connectingTimeout = 5
 ```
+
+#### Automatic connection (Автоматическое подключение) :fire:
+Данный параметр отвечает за функцию автоматического подключения к устройству и уровне сигнала, превышающим пороговое значение, установленное в настройках SDK.
+##### Значение по умолчанию: true (Включено)
+```swift
+bytixManager.autoConnection = true
+```
 <a name="Управление"></a>
 ### Управление :video_game:
 Для управления сканированием контрольный класс содержит в себе 2 метода.
@@ -108,6 +115,16 @@ let beaconsArray = bytixManager.getBeacons() // Тип: [BytixBeacon]
 ```swift
 bytixManager.sendData(someDataObject)
 ```
+
+Для целевого подключения к устройству используйте метод `connect(to beacon: BytixBeacon)` :fire:
+```swift
+bytixManager.connect(to: beacon)
+```
+
+Для отключения от сопряженного устройства используйте метод `disconnect(from beacon: BytixBeacon)` :fire:
+```swift
+bytixManager.disconnect(from: beacon)
+```
 <a name="События"></a>
 ### События :dart:
 Библиотека передает информацию, используя протокол `BytixDelegate` 
@@ -116,7 +133,7 @@ bytixManager.sendData(someDataObject)
 bytixManager.delegate = self
 ```
 Произошло то, или иное событие и информация о маяках в радиусе взаимодействия обновилась
-##### Обязательный метод протокола
+##### При изменении RSSI сигнала от маяка данный метод не вызывается. :fire:
 ```swift
 func didUpdateBeacons()
 ```
@@ -135,4 +152,8 @@ func bytix(lost device: BytixBeacon)
 Получены данные от подключенного удаленного устройства
 ```swift
 func bytix(received data: Data, from device: BytixBeacon)
+```
+Изменился уровень сигнала от устройства :fire:
+```swift
+func bytix(updated RSSI: Int, from device: BytixBeacon)
 ```
