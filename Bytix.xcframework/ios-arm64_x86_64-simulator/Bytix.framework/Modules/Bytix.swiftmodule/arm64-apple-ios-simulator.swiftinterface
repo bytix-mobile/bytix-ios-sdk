@@ -55,6 +55,7 @@ public protocol BytixDelegate : AnyObject {
   func bytix(lost device: Bytix.BytixBeacon)
   func bytix(received data: Foundation.Data, from device: Bytix.BytixBeacon)
   func bytix(update RSSI: Swift.Int, for device: Bytix.BytixBeacon)
+  func bytix(recieve CBState: Bytix.BytixState)
 }
 extension Bytix.BytixDelegate {
   public func didUpdatedBeacons()
@@ -63,6 +64,7 @@ extension Bytix.BytixDelegate {
   public func bytix(lost device: Bytix.BytixBeacon)
   public func bytix(received data: Foundation.Data, from device: Bytix.BytixBeacon)
   public func bytix(update RSSI: Swift.Int, for device: Bytix.BytixBeacon)
+  public func bytix(recieve CBState: Bytix.BytixState)
 }
 public struct BytixBeacon : Swift.Hashable {
   public enum ConnectionState : Swift.String {
@@ -123,8 +125,23 @@ public struct BytixBeacon : Swift.Hashable {
     get
   }
 }
+public enum BytixState {
+  case poweredOn
+  case poweredOff
+  case unsupported
+  case unauthorized
+  case resetting
+  case unknown
+  public static func == (a: Bytix.BytixState, b: Bytix.BytixState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension Bytix.BytixBeacon.ConnectionState : Swift.Equatable {}
 extension Bytix.BytixBeacon.ConnectionState : Swift.Hashable {}
 extension Bytix.BytixBeacon.ConnectionState : Swift.RawRepresentable {}
 extension Bytix.BytixBeacon.ApproximateDistanse : Swift.Equatable {}
 extension Bytix.BytixBeacon.ApproximateDistanse : Swift.Hashable {}
+extension Bytix.BytixState : Swift.Equatable {}
+extension Bytix.BytixState : Swift.Hashable {}

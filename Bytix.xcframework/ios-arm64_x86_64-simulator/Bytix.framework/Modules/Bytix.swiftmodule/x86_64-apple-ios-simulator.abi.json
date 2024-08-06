@@ -1242,6 +1242,36 @@
           },
           {
             "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(recieve:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixState",
+                "printedName": "Bytix.BytixState",
+                "usr": "s:5Bytix0A5StateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegateP5bytix7recieveyAA0A5StateO_tF",
+            "mangledName": "$s5Bytix0A8DelegateP5bytix7recieveyAA0A5StateO_tF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didUpdatedBeacons",
             "printedName": "didUpdatedBeacons()",
             "children": [
@@ -1396,6 +1426,32 @@
             "declKind": "Func",
             "usr": "s:5Bytix0A8DelegatePAAE5bytix6update3forySi_AA0A6BeaconVtF",
             "mangledName": "$s5Bytix0A8DelegatePAAE5bytix6update3forySi_AA0A6BeaconVtF",
+            "moduleName": "Bytix",
+            "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
+            "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytix",
+            "printedName": "bytix(recieve:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixState",
+                "printedName": "Bytix.BytixState",
+                "usr": "s:5Bytix0A5StateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A8DelegatePAAE5bytix7recieveyAA0A5StateO_tF",
+            "mangledName": "$s5Bytix0A8DelegatePAAE5bytix7recieveyAA0A5StateO_tF",
             "moduleName": "Bytix",
             "genericSig": "<τ_0_0 where τ_0_0 : Bytix.BytixDelegate>",
             "sugared_genericSig": "<Self where Self : Bytix.BytixDelegate>",
@@ -3578,6 +3634,355 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "BytixState",
+        "printedName": "BytixState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "poweredOn",
+            "printedName": "poweredOn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bytix.BytixState.Type) -> Bytix.BytixState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BytixState",
+                    "printedName": "Bytix.BytixState",
+                    "usr": "s:5Bytix0A5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bytix.BytixState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BytixState",
+                        "printedName": "Bytix.BytixState",
+                        "usr": "s:5Bytix0A5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bytix0A5StateO9poweredOnyA2CmF",
+            "mangledName": "$s5Bytix0A5StateO9poweredOnyA2CmF",
+            "moduleName": "Bytix"
+          },
+          {
+            "kind": "Var",
+            "name": "poweredOff",
+            "printedName": "poweredOff",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bytix.BytixState.Type) -> Bytix.BytixState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BytixState",
+                    "printedName": "Bytix.BytixState",
+                    "usr": "s:5Bytix0A5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bytix.BytixState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BytixState",
+                        "printedName": "Bytix.BytixState",
+                        "usr": "s:5Bytix0A5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bytix0A5StateO10poweredOffyA2CmF",
+            "mangledName": "$s5Bytix0A5StateO10poweredOffyA2CmF",
+            "moduleName": "Bytix"
+          },
+          {
+            "kind": "Var",
+            "name": "unsupported",
+            "printedName": "unsupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bytix.BytixState.Type) -> Bytix.BytixState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BytixState",
+                    "printedName": "Bytix.BytixState",
+                    "usr": "s:5Bytix0A5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bytix.BytixState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BytixState",
+                        "printedName": "Bytix.BytixState",
+                        "usr": "s:5Bytix0A5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bytix0A5StateO11unsupportedyA2CmF",
+            "mangledName": "$s5Bytix0A5StateO11unsupportedyA2CmF",
+            "moduleName": "Bytix"
+          },
+          {
+            "kind": "Var",
+            "name": "unauthorized",
+            "printedName": "unauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bytix.BytixState.Type) -> Bytix.BytixState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BytixState",
+                    "printedName": "Bytix.BytixState",
+                    "usr": "s:5Bytix0A5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bytix.BytixState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BytixState",
+                        "printedName": "Bytix.BytixState",
+                        "usr": "s:5Bytix0A5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bytix0A5StateO12unauthorizedyA2CmF",
+            "mangledName": "$s5Bytix0A5StateO12unauthorizedyA2CmF",
+            "moduleName": "Bytix"
+          },
+          {
+            "kind": "Var",
+            "name": "resetting",
+            "printedName": "resetting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bytix.BytixState.Type) -> Bytix.BytixState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BytixState",
+                    "printedName": "Bytix.BytixState",
+                    "usr": "s:5Bytix0A5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bytix.BytixState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BytixState",
+                        "printedName": "Bytix.BytixState",
+                        "usr": "s:5Bytix0A5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bytix0A5StateO9resettingyA2CmF",
+            "mangledName": "$s5Bytix0A5StateO9resettingyA2CmF",
+            "moduleName": "Bytix"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bytix.BytixState.Type) -> Bytix.BytixState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BytixState",
+                    "printedName": "Bytix.BytixState",
+                    "usr": "s:5Bytix0A5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bytix.BytixState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BytixState",
+                        "printedName": "Bytix.BytixState",
+                        "usr": "s:5Bytix0A5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Bytix0A5StateO7unknownyA2CmF",
+            "mangledName": "$s5Bytix0A5StateO7unknownyA2CmF",
+            "moduleName": "Bytix"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixState",
+                "printedName": "Bytix.BytixState",
+                "usr": "s:5Bytix0A5StateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BytixState",
+                "printedName": "Bytix.BytixState",
+                "usr": "s:5Bytix0A5StateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A5StateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5Bytix0A5StateO2eeoiySbAC_ACtFZ",
+            "moduleName": "Bytix",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A5StateO9hashValueSivp",
+            "mangledName": "$s5Bytix0A5StateO9hashValueSivp",
+            "moduleName": "Bytix",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A5StateO9hashValueSivg",
+                "mangledName": "$s5Bytix0A5StateO9hashValueSivg",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bytix0A5StateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5Bytix0A5StateO4hash4intoys6HasherVz_tF",
+            "moduleName": "Bytix",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Bytix0A5StateO",
+        "mangledName": "$s5Bytix0A5StateO",
+        "moduleName": "Bytix",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -4380,8 +4785,22 @@
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 637,
+      "length": 4,
+      "value": "-100"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "BooleanLiteral",
-      "offset": 643,
+      "offset": 688,
       "length": 5,
       "value": "false"
     },
@@ -4395,56 +4814,63 @@
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 11814,
+      "offset": 12363,
       "length": 6,
       "value": "\"0001\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 11907,
+      "offset": 12456,
       "length": 6,
       "value": "\"0002\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 12001,
+      "offset": 12550,
       "length": 6,
       "value": "\"0003\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "StringLiteral",
-      "offset": 12092,
+      "offset": 12641,
       "length": 6,
       "value": "\"0004\""
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Gateway\/Gateway.swift",
       "kind": "IntegerLiteral",
-      "offset": 12187,
+      "offset": 12736,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
+      "kind": "Dictionary",
+      "offset": 977,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1055,
+      "offset": 1018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
       "kind": "Array",
-      "offset": 1111,
+      "offset": 1074,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
       "kind": "Dictionary",
-      "offset": 1340,
+      "offset": 1303,
       "length": 3,
       "value": "[]"
     },
