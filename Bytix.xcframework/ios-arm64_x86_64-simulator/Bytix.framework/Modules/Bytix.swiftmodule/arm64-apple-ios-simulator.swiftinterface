@@ -15,7 +15,7 @@ final public class BytixSDK {
     get
     set
   }
-  final public var connectionTreshold: Foundation.TimeInterval {
+  final public var connectionTreshold: Swift.Int {
     get
     set
   }

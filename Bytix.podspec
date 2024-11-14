@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                    = "Bytix"
-  spec.version                 = "1.2.2"
+  spec.version                 = "1.2.3"
   spec.platform                = :ios, '12.0'
   spec.ios.deployment_target   = '12.0'
   spec.summary                 = "Bytix iOS SDK"
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license                 = { :type => 'MIT', :text => 'LICENSE' }
   spec.author                  = { "Bytix-Mobile" => "..." }
   spec.swift_version           = "5.0"
-  spec.source                  = { :http => 'https://github.com/bytix-mobile/bytix-ios-sdk/releases/download/1.2.2/Bytix.xcframework.zip' }
+  spec.source                  = { :http => 'https://github.com/bytix-mobile/bytix-ios-sdk/releases/download/1.2.3/Bytix.xcframework.zip' }
   spec.ios.vendored_frameworks = 'Bytix.xcframework'
   spec.dependency 'SwiftProtobuf', '~> 1.0'
 end

@@ -296,14 +296,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Var",
-            "usr": "s:5Bytix0A3SDKC18connectionTresholdSdvp",
-            "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSdvp",
+            "usr": "s:5Bytix0A3SDKC18connectionTresholdSivp",
+            "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSivp",
             "moduleName": "Bytix",
             "declAttributes": [
               "Final",
@@ -318,14 +318,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Bytix0A3SDKC18connectionTresholdSdvg",
-                "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSdvg",
+                "usr": "s:5Bytix0A3SDKC18connectionTresholdSivg",
+                "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSivg",
                 "moduleName": "Bytix",
                 "declAttributes": [
                   "Final"
@@ -344,14 +344,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Bytix0A3SDKC18connectionTresholdSdvs",
-                "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSdvs",
+                "usr": "s:5Bytix0A3SDKC18connectionTresholdSivs",
+                "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSivs",
                 "moduleName": "Bytix",
                 "declAttributes": [
                   "Final"
@@ -370,8 +370,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Bytix0A3SDKC18connectionTresholdSdvM",
-                "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSdvM",
+                "usr": "s:5Bytix0A3SDKC18connectionTresholdSivM",
+                "mangledName": "$s5Bytix0A3SDKC18connectionTresholdSivM",
                 "moduleName": "Bytix",
                 "implicit": true,
                 "declAttributes": [
