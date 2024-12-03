@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                    = "Bytix"
-  spec.version                 = "1.2.3"
+  spec.version                 = "1.3.0"
   spec.platform                = :ios, '12.0'
   spec.ios.deployment_target   = '12.0'
   spec.summary                 = "Bytix iOS SDK"

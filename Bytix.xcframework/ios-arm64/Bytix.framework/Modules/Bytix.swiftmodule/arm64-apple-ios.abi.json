@@ -842,6 +842,98 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "simultaneousConnections",
+            "printedName": "simultaneousConnections",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A3SDKC23simultaneousConnectionsSivp",
+            "mangledName": "$s5Bytix0A3SDKC23simultaneousConnectionsSivp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC23simultaneousConnectionsSivg",
+                "mangledName": "$s5Bytix0A3SDKC23simultaneousConnectionsSivg",
+                "moduleName": "Bytix",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC23simultaneousConnectionsSivs",
+                "mangledName": "$s5Bytix0A3SDKC23simultaneousConnectionsSivs",
+                "moduleName": "Bytix",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC23simultaneousConnectionsSivM",
+                "mangledName": "$s5Bytix0A3SDKC23simultaneousConnectionsSivM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(_:)",
@@ -4849,28 +4941,28 @@
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
       "kind": "Dictionary",
-      "offset": 977,
+      "offset": 1046,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1018,
+      "offset": 1087,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
       "kind": "Array",
-      "offset": 1074,
+      "offset": 1143,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vladislavmashkov\/Desktop\/ppr\/bytix-sdk-ios\/Bytix\/Internal\/Bluetooth\/BLEManager.swift",
       "kind": "Dictionary",
-      "offset": 1303,
+      "offset": 1372,
       "length": 3,
       "value": "[]"
     },

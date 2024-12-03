@@ -39,6 +39,10 @@ final public class BytixSDK {
     get
     set
   }
+  final public var simultaneousConnections: Swift.Int {
+    get
+    set
+  }
   public init(_ serviceUUID: Swift.String)
   final public func startScanning()
   final public func stopScanning()
