@@ -120,6 +120,13 @@ bytixManager.connectingTimeout = 5
 ```swift
 bytixManager.autoConnection = true
 ```
+
+#### Simultaneous connections (Одновременное подключение) :fire:
+Данный параметр отвечает за количество подключаемых одновременно устройств при включенной функции автоматического подключения.
+##### Значение по умолчанию: 3 (Включено)
+```swift
+bytixManager.simultaneousConnections = 3
+```
 <a name="Управление"></a>
 ### Управление :video_game:
 Для управления сканированием контрольный класс содержит в себе 2 метода.
