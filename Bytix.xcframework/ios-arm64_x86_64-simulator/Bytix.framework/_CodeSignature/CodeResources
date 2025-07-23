@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Bytix-Swift.h</key>
 		<data>
-		tyWmrnkTpD9JHKyPlMUZwMql9CY=
+		3TReZuGlXs0O+DHFEFfGPGK3XhU=
 		</data>
 		<key>Headers/Bytix.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		U6wUmSqY62Oz5x10Pp8uGkvr7v4=
+		5GYby9VtUvoD3w+zLGtshYY9wKU=
 		</data>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7HfXJpCOTCZdMyEC1EXzwra/sR0=
+		3Q3sZk7tVmZxOFBHFYEEkCby56A=
 		</data>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		btwCbrbchgAaAqtmWN2NFmg/OUQ=
+		CZixm0tu5db1a3/EBkaXceUruJo=
 		</data>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GehckyiNkcSH7eRYTKYNRlE7LzU=
+		4Zxb5XiQVdzXjaNc6W9AYsrwZq8=
 		</data>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		btwCbrbchgAaAqtmWN2NFmg/OUQ=
+		CZixm0tu5db1a3/EBkaXceUruJo=
 		</data>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9ROUlDOKUZf/ge+56bMXeQ7Y7/w=
+		qwGFOUp33EZb8Mh5qf08MbMyL0c=
 		</data>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7HfXJpCOTCZdMyEC1EXzwra/sR0=
+		3Q3sZk7tVmZxOFBHFYEEkCby56A=
 		</data>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+4nS34Bh/SyAiIsuMD3gMbBxZ78=
+		UktC5y7vFWEGl32oY9maAPW72NE=
 		</data>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3hdy/W10ZmKp5Tws4ZeGn0jqSME=
+		umneSb0UYxhjmjF0LqG8BxXxPJw=
 		</data>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+4nS34Bh/SyAiIsuMD3gMbBxZ78=
+		UktC5y7vFWEGl32oY9maAPW72NE=
 		</data>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1nV7AeQ1MGb+tb6QZg3cN7+jGSA=
+		R3JNxS8zrJgJLdf4etztdLgu06Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ElL+skecEu/kEa9Cn6g5S2XaZv1BofYOUMMUz+Gplg=
+			32L+pwLxRMc2r3A6ypvszKyRE54UfUUI3GS1ItxtBjE=
 			</data>
 		</dict>
 		<key>Headers/Bytix.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lyCpfsLq2QdarkCAd1Uj+OoNdKic4O1+sSFpAFNnJZ4=
+			+WAc1EDDr+9L8o8ZIY+ZNm+OWrfK+jdKepUtcWZy5lo=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UMAb1yTG1vLc//DmcFpE8iA+PLgw0EXAJh61PPk+kGQ=
+			LUfw9c16oursZIAr6dGPrNADQhyMO1PCW6Q5cVnxGic=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DJzVBqnYHoNezJSeIvw0yEXV0E7Brujm1zZvxpwGZ4g=
+			ADqNdy8iYDRjZx4xw34TYyFFreA/GZ/yyZWTnyKwlRE=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UMAb1yTG1vLc//DmcFpE8iA+PLgw0EXAJh61PPk+kGQ=
+			LUfw9c16oursZIAr6dGPrNADQhyMO1PCW6Q5cVnxGic=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c2UbhwKRckaseWn1682Z3V8qdHWLXX1BneQnF+yDm4I=
+			nJmLFHsRehDWGpELd/L7ZHEcvM3/cA3hnCRhpds+3aA=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lyCpfsLq2QdarkCAd1Uj+OoNdKic4O1+sSFpAFNnJZ4=
+			+WAc1EDDr+9L8o8ZIY+ZNm+OWrfK+jdKepUtcWZy5lo=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GXHyhIqJAWPYZfQyDn7fiB9yHhIw+kvVU3h0diLj6p8=
+			tUD5WCrP11/eu8d8+4Cc2dYiYKPwkDpyA/PECfOiIPU=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJZDIOVstj8n1Ziqz/rLBIIkI8TJ631OKKq1eRk4iKE=
+			xhMSGrORzhgmhyes4guRmwF9Oyfj6f9OsdNdEvu8WSs=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GXHyhIqJAWPYZfQyDn7fiB9yHhIw+kvVU3h0diLj6p8=
+			tUD5WCrP11/eu8d8+4Cc2dYiYKPwkDpyA/PECfOiIPU=
 			</data>
 		</dict>
 		<key>Modules/Bytix.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WvbY/XIZPdIqtFLxFGnBuVXxO1JwzHo9QCtAv1yIylk=
+			M43ytfob6imye1U0HCmzqbaWWjhbQT6XKYfcrwnRrxU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
