@@ -1,12 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Bytix
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2.1 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name Bytix
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 @_exported import Bytix
 import CoreBluetooth
 import Foundation
 import Swift
-import SwiftProtobuf
 import UIKit
 import _Concurrency
 import _StringProcessing
@@ -29,10 +28,12 @@ public struct HardwareStats : Swift.Hashable {
 }
 final public class BytixSDK {
   weak final public var delegate: (any Bytix.BytixDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   final public var serviceUUID: Swift.String? {
     get
     set
   }
+  #endif
   final public var connectionTreshold: Swift.Int {
     get
     set
@@ -95,7 +96,9 @@ public struct BytixBeacon : Swift.Hashable, Swift.Equatable {
     case connected
     case disconnecting
     case disconnected
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -125,7 +128,9 @@ public struct BytixBeacon : Swift.Hashable, Swift.Equatable {
   public var connectionState: Bytix.BytixBeacon.ConnectionState
   public var hardwareStats: Bytix.HardwareStats?
   public var shortIdentifier: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(rssi: Swift.Int?, deviceName: Swift.String?, deviceId: Swift.String?, groupId: Swift.String?, realm: Swift.String?, shortIdentifier: Swift.String, hardwareStats: Bytix.HardwareStats?, connectionState: Bytix.BytixBeacon.ConnectionState)
+  #endif
   public static func == (lhs: Bytix.BytixBeacon, rhs: Bytix.BytixBeacon) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var approximateDistance: Bytix.BytixBeacon.ApproximateDistanse {

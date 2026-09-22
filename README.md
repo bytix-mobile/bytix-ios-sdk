@@ -2,6 +2,8 @@
 
 **Bytix** — библиотека для работы с BLE-маяками, предоставляющая возможность host-приложениям обнаруживать, подключаться и получать данные с маяков.
 
+Требования: iOS 15.0+, Swift 6.
+
 - [О проекте](#О-проекте)
 - [Установка](#Установка)
 - [Как использовать](#Как-использовать)
@@ -61,7 +63,7 @@ pod install
 
 ```
 dependencies: [
-    .package(url: "https://github.com/bytix-mobile/bytix-ios-sdk.git", .upToNextMajor(from: "1.2.0"))
+    .package(url: "https://github.com/bytix-mobile/bytix-ios-sdk.git", .upToNextMajor(from: "1.5.0"))
 ]
 ```
 
