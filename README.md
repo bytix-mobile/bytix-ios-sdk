@@ -4,6 +4,8 @@
 
 Требования: iOS 15.0+, Swift 6.
 
+В версии 1.5.1 исправлен идентификатор маяка в отчётах метрик: SDK отправляет реальный ID устройства, полученный после BLE-подключения. Поле `libVersion` теперь содержит версию SDK (1.5.1), а `appVersion` по-прежнему содержит маркетинговую версию приложения.
+
 - [О проекте](#О-проекте)
 - [Установка](#Установка)
 - [Как использовать](#Как-использовать)
@@ -63,7 +65,7 @@ pod install
 
 ```
 dependencies: [
-    .package(url: "https://github.com/bytix-mobile/bytix-ios-sdk.git", .upToNextMajor(from: "1.5.0"))
+    .package(url: "https://github.com/bytix-mobile/bytix-ios-sdk.git", .upToNextMajor(from: "1.5.1"))
 ]
 ```
 
