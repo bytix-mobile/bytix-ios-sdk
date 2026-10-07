@@ -17,6 +17,7 @@
 - [О проекте](#О-проекте)
 - [Установка](#Установка)
 - [Как использовать](#Как-использовать)
+  - [Передача client ID](#Client-ID)
   - [Настройка параметров](#Настройка-параметров)
   - [Управление](#Управление)
   - [События](#События)
@@ -89,6 +90,25 @@ import Bytix
 ```swift
 let bytixManager = BytixSDK("SOME-UUID")
 ```
+
+<a name="Client-ID"></a>
+### Передача client ID
+
+Чтобы передать ваш идентификатор клиента в отчёты метрик, сохраните его как непустую строку в `UserDefaults.standard` с ключом `bytix_device_id` до создания SDK и запуска сканирования:
+
+```swift
+import Foundation
+import Bytix
+
+let clientID = "YOUR-CLIENT-ID"
+UserDefaults.standard.set(clientID, forKey: "bytix_device_id")
+
+let bytixManager = BytixSDK("SOME-UUID")
+bytixManager.startScanning()
+```
+
+Этот ID отправляется в поле `deviceID` отчёта и сохраняется между запусками приложения. Если значение не задано, SDK автоматически создаёт и сохраняет UUID.
+
 <a name="Настройка-параметров"></a>
 ### Настройка параметров :globe_with_meridians:
 Мы имеем возможность настроить SDK под решение конкретной задачи, для этого библиотека имеет набор параметров, которые можно установить через управляющий класс.
