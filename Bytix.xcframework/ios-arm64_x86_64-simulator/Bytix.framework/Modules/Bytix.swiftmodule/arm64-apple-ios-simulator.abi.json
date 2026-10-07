@@ -1405,6 +1405,122 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Bytix0A3SDKC6userIDSSSgvp",
+            "mangledName": "$s5Bytix0A3SDKC6userIDSSSgvp",
+            "moduleName": "Bytix",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC6userIDSSSgvg",
+                "mangledName": "$s5Bytix0A3SDKC6userIDSSSgvg",
+                "moduleName": "Bytix",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC6userIDSSSgvs",
+                "mangledName": "$s5Bytix0A3SDKC6userIDSSSgvs",
+                "moduleName": "Bytix",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Bytix0A3SDKC6userIDSSSgvM",
+                "mangledName": "$s5Bytix0A3SDKC6userIDSSSgvM",
+                "moduleName": "Bytix",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(_:)",
@@ -4541,35 +4657,35 @@
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/MetricsModels.swift",
       "kind": "StringLiteral",
-      "offset": 429,
+      "offset": 581,
       "length": 11,
       "value": "\"_reportID\""
     },
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/MetricsModels.swift",
       "kind": "Array",
-      "offset": 2006,
+      "offset": 2218,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/MetricsModels.swift",
       "kind": "Array",
-      "offset": 2057,
+      "offset": 2269,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/MetricsModels.swift",
       "kind": "BooleanLiteral",
-      "offset": 2101,
+      "offset": 2313,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/MetricsModels.swift",
       "kind": "BooleanLiteral",
-      "offset": 2153,
+      "offset": 2365,
       "length": 5,
       "value": "false"
     },
@@ -4652,8 +4768,15 @@
     },
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/BytixMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1306,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/BytixMetrics.swift",
       "kind": "BooleanLiteral",
-      "offset": 7707,
+      "offset": 8821,
       "length": 5,
       "value": "false"
     }

@@ -62,6 +62,12 @@ final public class BytixSDK {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var userID: Swift.String? {
+    get
+    set
+  }
+  #endif
   public init(_ serviceUUID: Swift.String)
   final public func startScanning()
   final public func stopScanning()
