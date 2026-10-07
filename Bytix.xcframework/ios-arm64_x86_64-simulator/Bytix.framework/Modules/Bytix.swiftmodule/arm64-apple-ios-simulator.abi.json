@@ -4562,14 +4562,14 @@
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/MetricsModels.swift",
       "kind": "BooleanLiteral",
-      "offset": 2093,
+      "offset": 2101,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/MetricsModels.swift",
       "kind": "BooleanLiteral",
-      "offset": 2145,
+      "offset": 2153,
       "length": 5,
       "value": "false"
     },
@@ -4632,35 +4632,28 @@
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/BytixMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 482,
+      "offset": 502,
       "length": 19,
       "value": "\"com.bytix.metrics\""
     },
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/BytixMetrics.swift",
       "kind": "Dictionary",
-      "offset": 749,
+      "offset": 1035,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/BytixMetrics.swift",
       "kind": "BooleanLiteral",
-      "offset": 787,
+      "offset": 1073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/BytixMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 889,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/spinogrizz\/Work\/Bytix\/bytix-sdk-ios\/Bytix\/Internal\/Metrics\/BytixMetrics.swift",
       "kind": "BooleanLiteral",
-      "offset": 6814,
+      "offset": 7707,
       "length": 5,
       "value": "false"
     }
